@@ -1,8 +1,9 @@
 
 import Message from "../components/message";
 import { useApiData } from "../hooks/data";
+import HomePage from "./homePage";
 
-// Our main page. Here we are loading data "on the client"
+// Our pre proccing data page. Here we are loading data "on the client"
 // And showing some loading screen(s) while waiting for the data to be ready
 export default function IndexPage() {
 
@@ -14,14 +15,16 @@ export default function IndexPage() {
 
   // Just for convenience
   const records = data.teams;
-
-  return (
-    <>
-      <div className="row">
-        {records.map(record => {
-          return <div key={record.id} className="item"><div className="content">{record.name}</div></div>
-        })}
-      </div>
-    </>
-  )
+  if (data){
+    return (
+      <>
+        <HomePage data={data}/>
+      </>
+    )
+  }
+  else {
+    return{
+      // showing some loading/error messages
+    }
+  }
 }

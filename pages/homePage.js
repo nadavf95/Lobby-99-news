@@ -3,5 +3,8 @@
 
 
 export default function HomePage({data}) {
- 
+
+    return{
+        //mapping articles headers item into list of  buttons itemes.
+    } 
 }

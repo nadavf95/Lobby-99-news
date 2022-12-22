@@ -2,4 +2,7 @@
 
 export default function ArticlePage({article_data}) {
 
+    return{
+        // shows aricle
+    }
 }
