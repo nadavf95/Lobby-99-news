@@ -113,7 +113,7 @@ form>* {
 
 #navbar {
   display: flex;
-  background-color: var(--deep-blue);
+  background-color: var(--charcoal);
   color: var(--white);
   border-bottom: 4px solid var(--deep-red);
 }
@@ -151,7 +151,7 @@ form>* {
 #footer {
   display: flex;
   margin-top: auto;
-  background-color: var(--deep-blue);
+  background-color: var(--charcoal);
   color: var(--white);
   height: 200px;
   border-top: 4px solid var(--deep-red);
