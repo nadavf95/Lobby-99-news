@@ -10,20 +10,18 @@ export default function Navbar() {
     <div id="navbar">
       <div className="container">
         <div className="row navbar-items">
-          <div className="item navbar-logo">
-            <div className="content">
-              <Link href="/">Lobby-99-DPJ</Link>
-            </div>
-          </div>
-          <div className="item navbar-menu">
-            <div className="content">
-              <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
-              </ul>
-            </div>
-          </div>
+
+          <button className="navbar-logo">
+              <Link href="/">logo</Link>
+          </button>
+
+          <button className="cto-button">
+            <Link href="/">cto</Link>
+          </button>
+
+          <button className="account-button">
+            <Link href="/">acnt</Link>
+          </button>
         </div>
       </div>
     </div>

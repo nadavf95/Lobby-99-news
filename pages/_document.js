@@ -5,7 +5,7 @@ import { Head, Html, Main, NextScript } from "next/document"
 // If we deleted this file the app will work identically
 export default function Document() {
   return (
-    <Html>
+    <Html dir="rtl" lang="he-IL">
       <Head />
       <body>
         <Main />

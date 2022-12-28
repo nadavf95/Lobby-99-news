@@ -12,8 +12,21 @@
   --layout-guide-item: rgba(255, 89, 0, 0.975);
   --layout-guide-content: rgb(0, 183, 255);
 }
+body {
 
+  direction:rtl;
+}
 /* our project */
+
+.articles_list{
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.article_head_item{
+
+}
 
 .article_head_content {
   border-bottom: 1px solid black;
@@ -24,11 +37,44 @@
 }
 
 .article_head_text{
-
 }
 
 
+/* buttons */
 
+.navbar-logo{
+  background-color: #ea9b07; /* Green */
+  border: solid;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px 5px;
+
+}
+.cto-button{
+  background-color: #ea9b07; /* Green */
+  border: solid;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  padding: 5px 5px;
+  
+}
+.account-button{
+  background-color: #ea9b07; /* Green */
+  border: solid;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  padding: 5px 5px;
+  
+}
 
 
 
@@ -136,7 +182,7 @@ form>* {
 
 #navbar {
   display: flex;
-  background-color: var(--charcoal);
+  background-color: grey;
   color: var(--white);
   border-bottom: 4px solid var(--deep-red);
 }

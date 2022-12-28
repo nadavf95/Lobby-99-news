@@ -13,26 +13,36 @@ export default function IndexPage() {
   // if (isError) return <Message content="An error occured..." />
   // if (!data) return <Message content="No data could be loaded..." />
   let data = [{"id":"1",
-               "subject":"Traffic",
-               "head_text":"traffic in israel is bad!!!!!!!!!.",
+               "subject":"שוק חופשי",
+               "head_text":"מיזוג נוסף בתחום המזון?",
                "publish_date":"12/12/2022"
               },
               { "id":"2",
-                "subject":"Real estate",
-                "head_text":"apartments in israel are over prices!!!!!!!!!.",
+                "subject":"הון שלטון",
+                "head_text":"המדריך לממשלה שתבחר להיאבק ביוקר מחירי המזון",
                 "publish_date":"12/12/2022"
               },    
               { "id":"3",
-                "subject":"climate",
-                "head_text":"Israet is HOT!!!!!!!!!.",
+                "subject":"שוק חופשי",
+                "head_text":"הבנקים מרוויחים על חשבון החסכונות שלכם מבלי לעשות דבר",
                 "publish_date":"12/12/2022"
               },
               { "id":"4",
-                "subject":"animels",
-                "head_text":"Do not abuse animals!!!!!!!!!.",
+                "subject":"רשיות מקומיות",
+                "head_text":"עוד פחות משנה הולכים שוב לבחירות ברשויות המקמויות",
+                "publish_date":"12/12/2022"
+              },
+              { "id":"5",
+                "subject":"משאבי טבע",
+                "head_text":"מה יקרה למשק הישראלי כשייגמר לנו הגז?",
+                "publish_date":"12/12/2022"
+              },
+              { "id":"6",
+                "subject":"פנסיה וביטוח",
+                "head_text":"ניצחון לשקיפות! דמי ניהול שהוסתרו מכם ייחשפו",
                 "publish_date":"12/12/2022"
               }        
-             ];           
+             ];                            
    
   if (data){
     console.log(data);
