@@ -13,6 +13,29 @@
   --layout-guide-content: rgb(0, 183, 255);
 }
 
+/* our project */
+
+.article_head_content {
+  border-bottom: 1px solid black;
+}
+
+.article_head_subject{
+  text-decoration: underline dotted orange;
+}
+
+.article_head_text{
+
+}
+
+
+
+
+
+
+
+
+
+
 /* start design helpers */
 
 .item {
