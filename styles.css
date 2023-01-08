@@ -19,9 +19,15 @@ body {
 /* our project */
 
 .articles_list{
-  margin-right: 10px;
-  margin-left: 10px;
-  text-align: right;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  row-gap: 20px;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 10%;
+
+
 }
 
 .article_head_item{
@@ -29,7 +35,11 @@ body {
 }
 
 .article_head_content {
-  border-bottom: 1px solid black;
+  box-sizing: content-box;
+  width: 100%;
+  border: solid grey 3px;
+  border-radius: 25px;
+  padding: 5px 5px;
 }
 
 .article_head_subject{
