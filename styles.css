@@ -59,7 +59,7 @@ body {
 
 }
 
-.article_head_content {
+.article_record_content {
   box-sizing: content-box;
   width: 100%;
   border: solid grey 3px;
@@ -70,7 +70,7 @@ body {
 .article_head_subject{
   text-decoration: underline dotted orange;
 }
-.article_date_likes_views_container{
+.article_subject_likes_views_container{
   display: flex;
   flex-flow: row;
   justify-content:right; 
