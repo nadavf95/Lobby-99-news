@@ -1,5 +1,5 @@
-export default function ArticleRecord({article_meta_data}){
-    if (article_meta_data){
+export default function ArticleRecord({article}){
+    if (article){
         return(
             <div key={article.id} className="article_head_item">
                 <div className="article_head_content">
