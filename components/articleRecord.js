@@ -6,22 +6,24 @@ export default function ArticleRecord({article}){
     if (article){
         return(
             <div key={article.id} className="article_head_item">
-                <div className="article_head_content">
-                    <div className="article_head_subject"> 
-                        <h4>{article.subject}</h4> 
-                    </div>
-                    <div className="article_head_text">
-                        <h2>{article.head_text}</h2>
-                    </div>
-                    <div className="article_date_likes_views_container">
-                        <div className="article_publish_date"> {article.publish_date} </div>
-                        <div className="likes">
+                <div className="article_record_content">
+
+                    <div className="article_subject_likes_views_container">
+                        <div className="article_head_subject"> 
+                            <h4>{article.subject}</h4> 
+                        </div>
+                        <h4 className="likes">
                             L {article.likes}
-                        </div>
-                        <div className="views">
+                        </h4>
+                        <h4 className="views">
                             V {article.views}
-                        </div>
+                        </h4>
                     </div>
+
+                    <div className="article_head_text">
+                        <h1>{article.head_text}</h1>
+                    </div>
+                    <div className="article_publish_date"> {article.publish_date} </div>
                 </div>
             </div>
         )
