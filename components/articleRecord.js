@@ -1,3 +1,7 @@
+// This component represent article record.
+// This component is a button that passing the user to the desirable article page.   
+//   
+
 export default function ArticleRecord({article}){
     if (article){
         return(
@@ -9,7 +13,15 @@ export default function ArticleRecord({article}){
                     <div className="article_head_text">
                         <h2>{article.head_text}</h2>
                     </div>
-                    <div className="article_publish_date"> {article.publish_date} </div>
+                    <div className="article_date_likes_views_container">
+                        <div className="article_publish_date"> {article.publish_date} </div>
+                        <div className="likes">
+                            L {article.likes}
+                        </div>
+                        <div className="views">
+                            V {article.views}
+                        </div>
+                    </div>
                 </div>
             </div>
         )

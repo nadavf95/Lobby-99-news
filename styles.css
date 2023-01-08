@@ -15,9 +15,12 @@
 body {
 
   direction:rtl;
-  background-color: #FFFEF3;;
+  background-color: #FFFEF3;
 }
 /* our project */
+
+
+/* Navbar */
 
 .navbar-container{
   display: flex;
@@ -26,6 +29,18 @@ body {
   padding-right: 5%;
   padding-left: 10%;
   border-bottom: 2px solid #373737;
+}
+
+/* Footer */
+
+.footer-container{
+  block-size: 100%;
+  text-align: center;
+  border-style: solid;
+  background-color: #373737;
+}
+.footer-text{
+  color: #FFFEF3;
 }
 
 .articles_list{
@@ -55,7 +70,12 @@ body {
 .article_head_subject{
   text-decoration: underline dotted orange;
 }
-
+.article_date_likes_views_container{
+  display: flex;
+  flex-flow: row;
+  justify-content:right; 
+  column-gap: 20%;
+}
 .article_head_text{
 }
 

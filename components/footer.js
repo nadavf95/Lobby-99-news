@@ -3,15 +3,10 @@
 export default function Footer() {
   return (
     <footer id="footer">
-      <div className="container">
-        <div className="row">
-          <div className="item">
-            <div className="content">
-              &copy; Lobby 99
-            </div>
-          </div>
-        </div>
+      <div className="footer-container">
+        <h3 className="footer-text">Lobby99</h3> 
       </div>
+      
     </footer>
   )
 }
