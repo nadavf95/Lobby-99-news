@@ -8,21 +8,16 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div id="navbar">
-      <div className="container">
-        <div className="row navbar-items">
+      <div className="navbar-container">
 
-          <button className="navbar-logo">
-              <Link href="/">logo</Link>
-          </button>
+        <button className="account-button">
+          <Link href="/">acnt</Link>
+        </button>
 
-          <button className="cto-button">
-            <Link href="/">cto</Link>
-          </button>
-
-          <button className="account-button">
-            <Link href="/">acnt</Link>
-          </button>
-        </div>
+        <button className="navbar-logo">
+            <Link href="/">logo</Link>
+        </button>
+          
       </div>
     </div>
   )
