@@ -45,7 +45,7 @@ export default function IndexPage() {
              ];                            
    
   if (data){
-    console.log(data);
+    //console.log(data);
     return (
       <>
         <HomePage data={data}/>

@@ -14,10 +14,12 @@ export default function Navbar() {
           <button className="navbar-logo">
               <Link href="/">logo</Link>
           </button>
-
+        
           <button className="cto-button">
             <Link href="/">cto</Link>
           </button>
+
+          <li><Link href="/onboarding">START</Link></li>
 
           <button className="account-button">
             <Link href="/">acnt</Link>
