@@ -8,9 +8,9 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div id="navbar">
-      <div className="container">
-        <div className="row navbar-items">
+      <div className="navbar-container">
 
+<<<<<<< HEAD
           <button className="navbar-logo">
               <Link href="/">logo</Link>
           </button>
@@ -25,6 +25,16 @@ export default function Navbar() {
             <Link href="/">acnt</Link>
           </button>
         </div>
+=======
+        <button className="account-button">
+          <Link href="/">acnt</Link>
+        </button>
+
+        <button className="navbar-logo">
+            <Link href="/">logo</Link>
+        </button>
+          
+>>>>>>> eb62692f36a6611acdb426f6ff18d4d3ce99f8b4
       </div>
     </div>
   )
