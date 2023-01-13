@@ -1,5 +1,7 @@
 // an article page template. Here we are show specific article data
-import ArticleHeader from "../components/article_components/ariticleHeader"
+import ArticleHeader from "../components/article_components/ariticleHeader";
+import ArticleFightFor from "../components/article_components/articleFightFor";
+import ActionStages from "../components/article_components/actionStages";
 
 export default function ArticlePage({article}) {
     
@@ -7,16 +9,10 @@ export default function ArticlePage({article}) {
         return(
             // shows aricle
             <div className="article-page-container">
+
                 <ArticleHeader article={article}/>
-
-                <div className="article-fight-for">
-
-                </div>
-
-        
-                <div className="action-stages-component"> 
-
-                </div>
+                <ArticleFightFor article={article}/>
+                <ActionStages article={article}/>
 
                 <div className="representation-details">
 
