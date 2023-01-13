@@ -10,22 +10,6 @@ export default function Navbar() {
     <div id="navbar">
       <div className="navbar-container">
 
-<<<<<<< HEAD
-          <button className="navbar-logo">
-              <Link href="/">logo</Link>
-          </button>
-        
-          <button className="cto-button">
-            <Link href="/">cto</Link>
-          </button>
-
-          <li><Link href="/onboarding">START</Link></li>
-
-          <button className="account-button">
-            <Link href="/">acnt</Link>
-          </button>
-        </div>
-=======
         <button className="account-button">
           <Link href="/">acnt</Link>
         </button>
@@ -34,7 +18,6 @@ export default function Navbar() {
             <Link href="/">logo</Link>
         </button>
           
->>>>>>> eb62692f36a6611acdb426f6ff18d4d3ce99f8b4
       </div>
     </div>
   )

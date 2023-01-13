@@ -36,10 +36,11 @@ export default function Onboarding() {
                 setFormData(Object.assign(formData, { name }))
                 }
 
-
-
-
-
+        // if (event.target.id === "icons") {
+        //   console.log("entred fields")
+        //   const fields = event.target.value;
+        //   setFormData(Object.assign(formData, { fields }))
+        //   }
 
         })
        
@@ -54,6 +55,11 @@ export default function Onboarding() {
           
           <form onSubmit={handleSubmit}>
               <input id="form-name" placeholder="Your name" value={formData.name}  />
+              <div id = "icons" >
+                 <IconGrid />
+              </div>
+             
+
               <button type="submit">Submit</button> 
             </form> 
             
