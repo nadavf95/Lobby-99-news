@@ -12,6 +12,8 @@ export default function IndexPage() {
   // if (isLoading) return <Message content="Loading..." />
   // if (isError) return <Message content="An error occured..." />
   // if (!data) return <Message content="No data could be loaded..." />
+
+
   let data = [{"id":"1",
                "subject":"שוק חופשי",
                "head_text":"מיזוג נוסף בתחום המזון?",

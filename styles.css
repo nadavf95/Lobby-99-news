@@ -65,6 +65,7 @@ body {
   border: solid grey 3px;
   border-radius: 25px;
   padding: 5px 5px;
+  text-align: right;
 }
 
 .article_head_subject{
@@ -113,4 +114,10 @@ body {
     margin: 0 auto;
   }
 
+}
+
+button {
+  border:none;
+  background-color:transparent;
+  outline:none;
 }

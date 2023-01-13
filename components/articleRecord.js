@@ -2,10 +2,18 @@
 // This component is a button that passing the user to the desirable article page.   
 //   
 
+import Link from "next/link";
+
 export default function ArticleRecord({article}){
+
+    // TO DO change onclick to render article page.
+    const onClick = () => {
+        console.log(article.head_text);
+    }
+
     if (article){
         return(
-            <div key={article.id} className="article_head_item">
+            <button key={article.id} className="article_head_item" onClick={onClick}>
                 <div className="article_record_content">
 
                     <div className="article_subject_likes_views_container">
@@ -25,7 +33,7 @@ export default function ArticleRecord({article}){
                     </div>
                     <div className="article_publish_date"> {article.publish_date} </div>
                 </div>
-            </div>
+            </button>
         )
     }
 }

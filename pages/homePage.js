@@ -2,6 +2,7 @@
 // And showing some loading screen(s) while waiting for the data to be ready
 
 import ArticleRecord from "../components/articleRecord"
+import React from "react";
 
 
 export default function HomePage({data}) {
