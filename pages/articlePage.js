@@ -12,7 +12,7 @@ export default function ArticlePage({article}) {
             <div className="article-page-container">
 
                 <ArticleHeader article={article}/>
-                <ArticleFightFor article={article}/>
+                {/* <ArticleFightFor article={article}/>
                 <ActionStages article={article}/>
                 <RepresentationDetails article={article}/>
 
@@ -26,7 +26,7 @@ export default function ArticlePage({article}) {
 
                 <div className="second-paragraph">
                     <p>article.second_paragraph</p>
-                </div>
+                </div> */}
 
             </div>
         )

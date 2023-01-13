@@ -14,42 +14,42 @@ export default function IndexPage() {
   // if (!data) return <Message content="No data could be loaded..." />
 
 
-  let data = [{"id":"1",
+  let data = [{"id":"0",
                "subject":"שוק חופשי",
                "head_text":"מיזוג נוסף בתחום המזון?",
                "publish_date":"12/12/2022",
                "likes": "80",
                "views": "500"
               },
-              { "id":"2",
+              { "id":"1",
                 "subject":"הון שלטון",
                 "head_text":"המדריך לממשלה שתבחר להיאבק ביוקר מחירי המזון",
                 "publish_date":"12/12/2022",
                 "likes": "80",
                 "views": "500"
               },    
-              { "id":"3",
+              { "id":"2",
                 "subject":"שוק חופשי",
                 "head_text":"הבנקים מרוויחים על חשבון החסכונות שלכם מבלי לעשות דבר",
                 "publish_date":"12/12/2022",
                 "likes": "80",
                 "views": "500"
               },
-              { "id":"4",
+              { "id":"3",
                 "subject":"רשיות מקומיות",
                 "head_text":"עוד פחות משנה הולכים שוב לבחירות ברשויות המקמויות",
                 "publish_date":"12/12/2022",
                 "likes": "80",
                 "views": "500"
               },
-              { "id":"5",
+              { "id":"4",
                 "subject":"משאבי טבע",
                 "head_text":"מה יקרה למשק הישראלי כשייגמר לנו הגז?",
                 "publish_date":"12/12/2022",
                 "likes": "80",
                 "views": "500"
               },
-              { "id":"6",
+              { "id":"5",
                 "subject":"פנסיה וביטוח",
                 "head_text":"ניצחון לשקיפות! דמי ניהול שהוסתרו מכם ייחשפו",
                 "publish_date":"12/12/2022",

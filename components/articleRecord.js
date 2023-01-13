@@ -2,13 +2,13 @@
 // This component is a button that passing the user to the desirable article page.   
 //   
 
-import Link from "next/link";
 
-export default function ArticleRecord({article}){
+
+export default function ArticleRecord({article, use_func}){
 
     // TO DO change onclick to render article page.
     const onClick = () => {
-        console.log(article.head_text);
+        use_func(article.id);
     }
 
     if (article){
