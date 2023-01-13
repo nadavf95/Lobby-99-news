@@ -2,6 +2,7 @@
 import ArticleHeader from "../components/article_components/ariticleHeader";
 import ArticleFightFor from "../components/article_components/articleFightFor";
 import ActionStages from "../components/article_components/actionStages";
+import RepresentationDetails from "../components/article_components/representationDetails";
 
 export default function ArticlePage({article}) {
     
@@ -13,13 +14,10 @@ export default function ArticlePage({article}) {
                 <ArticleHeader article={article}/>
                 <ArticleFightFor article={article}/>
                 <ActionStages article={article}/>
-
-                <div className="representation-details">
-
-                </div>
+                <RepresentationDetails article={article}/>
 
                 <div className="first-paragraph">
-
+                    <p>article.first_paragraph</p>
                 </div>
 
                 <div className="image-graph">
@@ -27,11 +25,8 @@ export default function ArticlePage({article}) {
                 </div>
 
                 <div className="second-paragraph">
-
+                    <p>article.second_paragraph</p>
                 </div>
-
-                div 
-
 
             </div>
         )
